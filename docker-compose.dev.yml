@@ -11,4 +11,5 @@ services:
    - SERVER_PORT=8000
   volumes:
    - ./:/app
+   - /app/node_modules
   command: npm run debug
